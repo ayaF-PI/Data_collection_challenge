@@ -1,26 +1,26 @@
 # Data_collection_challenge
 
-#Mars Weather Data Analysis
+# Mars Weather Data Analysis
 
 
-#Overview
+# Overview
 This project involves scraping, cleaning, analyzing, and visualizing data related to Mars' weather conditions, such as minimum temperature and atmospheric pressure. The data is collected from a Mars temperature data website using web scraping techniques and is further processed for analysis using Pandas. The project provides insights into the seasonal temperature and pressure variations on Mars and estimates the length of a Martian year.
 
-#Deliverables
+# Deliverables
 Deliverable 1: Scrape Titles and Preview Text from Mars News
 The first part of the project involved scraping titles and preview text from the Mars News website using Splinter and BeautifulSoup. The extracted data is stored in a Python list of dictionaries and is further saved to a JSON file.
 
 Deliverable 2: Scrape and Analyze Mars Weather Data
 The second part of the project involves scraping weather data (such as minimum temperature and pressure) from the Mars Temperature Data website, processing it into a Pandas DataFrame, and performing analysis on the dataset to answer key questions.
 
-#Project Structure
+# Project Structure
 part_1_mars_news.ipynb: Jupyter Notebook for scraping and storing Mars news articles' titles and preview texts.
 part_2_mars_weather.ipynb: Jupyter Notebook for scraping Mars weather data, cleaning the data, analyzing it, and visualizing the results.
 mars_weather_data.csv: Exported CSV file containing the cleaned and processed Mars weather data.
 README.md: This README file explaining the project structure and its contents
 
 
-#Steps and Analysis
+# Steps and Analysis
 1. Scrape Titles and Preview Text from Mars News
 Using Splinter and BeautifulSoup, titles and preview texts from the Mars News website were scraped. Each news article's title and preview text were stored in a list of dictionaries, which was further exported as a JSON file.
 
@@ -53,7 +53,7 @@ Daily Minimum Temperature over Time: A line plot showing the cyclic nature of Ma
 3. Save the Data
 The processed and cleaned data was exported to a CSV file (mars_weather_data.csv) for further use and sharing.
 
-#Results
+# Results
 Minimum Temperature:
 
 The coldest month is Month 3 with an average minimum temperature of around -83°C.
@@ -67,5 +67,5 @@ Year Length:
 By analyzing the temperature cycles, we estimate that a Martian year lasts approximately 687 Earth days.
 
 
-#Conclusion
+# Conclusion
 This project provides valuable insights into the climate conditions on Mars, focusing on temperature and pressure variations and the length of a Martian year. The use of web scraping, data cleaning, and analysis techniques demonstrates how Python can be used for scientific data analysis in space exploration contexts.
